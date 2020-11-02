@@ -53,5 +53,11 @@ int main(int argc, const char * argv[]) {
 
     
     std::cout <<"\n\n\n";
+    
+    std::cerr << "What Do I Do??" << std::endl;
+    exit(EXIT_FAILURE);
+    
+    
+    
     return 0;
 }

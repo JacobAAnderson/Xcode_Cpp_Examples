@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
     struct tm * now = localtime( & t );
 
     char fileName [80];
-    strftime (fileName,80,"/Users/jake/Desktop/%Y%m%d%H%M%S_output.txt",now);
+    strftime (fileName,80,"/Users/jake/Desktop/%Y-%m-%d_%H%M%S_output.txt",now);
 
     std::cout << "\n\nWriting to file:  " << fileName << "\n\n\n";
             
